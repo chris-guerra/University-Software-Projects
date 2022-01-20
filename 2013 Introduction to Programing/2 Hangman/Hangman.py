@@ -151,7 +151,7 @@ def empezarDeNuevo():
     restantes="abcdefghijklmnopqrstuvwxyz:"
     guiones=guionesf(":")
     letras_jugadas.config(text=letrasJugadas)
-    letras_label.config(text="Letras Jugadas:")
+    letras_label.config(text="Used Letters: ")
     palabra_codificada.config(text= guiones)
     ignorar=4
     canvas.create_rectangle(0,0,400,500,fill="Cornsilk",outline="Cornsilk")
