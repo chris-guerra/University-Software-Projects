@@ -42,7 +42,7 @@ def letraUsada(x):
     if vidas>0 and guiones!=palabra:
         if resp.isalpha():
             if len(resp)>1:
-                letras_jugadas.config(text="Solo ingresar una letra.")
+                letras_jugadas.config(text="Please Inserta a Letter Only")
                 letras_label.config(text="")
         #-------------------------------------------------------------
         # caso correcto:
@@ -98,10 +98,10 @@ def letraUsada(x):
                     sonrisa()
         elif resp=="":
             letras_label.config(text="")
-            letras_jugadas.config(text="No ingreso nada.")
+            letras_jugadas.config(text="No input was added")
         else:
             letras_label.config(text="")
-            letras_jugadas.config(text="Solo ingresar letras.")
+            letras_jugadas.config(text="Insert Letters Only")
     respuesta.delete(0, END)
     
 #-------------------------------------------------------------
@@ -238,7 +238,7 @@ palabra_codificada.pack()
 #-------------------------------------------------------------
 marco4=Frame(ventana)
 marco4.pack()
-boton_denuevo=Button(marco4, text="Empezar de nuevo", command=empezarDeNuevo)
+boton_denuevo=Button(marco4, text="Start Again", command=empezarDeNuevo)
 boton_denuevo.pack()
 
 ventana.mainloop()
