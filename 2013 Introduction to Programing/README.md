@@ -14,3 +14,10 @@ N  | Leibniz | Error | Montecarlo | Error
 1 	| 4.0 |	 27.323954473516267 |	 4.0 |	 27.323954473516267
 2 	| 2.666666666666667 	| 15.117363684322484 	| 2.0 	| 36.33802276324187
 3 	| 3.466666666666667 	| 10.347427210380772 |	 4.0 	| 15.117363684322498
+
+### Homework 2: Hangman Game ###
+
+A hangman Game has been created using tkinter. Additionaly a txt dictionary of english words is imported and the word is selected randomly. The game verifies if you win or loose and lets you restart the game with a new word.
+
+**Sample Screenshot:**
+
