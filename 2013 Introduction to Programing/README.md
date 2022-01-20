@@ -21,3 +21,4 @@ A hangman Game has been created using tkinter. Additionaly a txt dictionary of e
 
 **Sample Screenshot:**
 
+<img src="https://github.com/chris-guerra/University-Software-Projects/blob/main/2013%20Introduction%20to%20Programing/2%20Hangman/screenshot.png" width="150" />
