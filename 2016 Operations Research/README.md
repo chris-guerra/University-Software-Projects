@@ -14,3 +14,7 @@ Code is divided in 3 files:
 * sensibilidadp1.py makes calculations for the scenario where we are certain with 100% probability that the product will have high exposure
 
 Each py file generates a .txt with the results. The report is available in "Informe Tarea 1 IO.pdf".
+
+### Homework 2: Queueing theory of a real Cinema Line (Including χ2-distribution & Kolmogorov–Smirnov test) ###
+
+This project involves obtaining real data from a Cinema Line to purchase tickets on a regular time and at peak peak time, to further understand demand tendencies, to predict behaviour and reduce costs. Arena software is used to obtain results. Both arrival times and customer service times are studied separately, the following images are the ones for regular times. The full report can be seen in Tarea_2_IO.pdf.
